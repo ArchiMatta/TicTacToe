@@ -24,6 +24,7 @@ body{
   .score-board{
     padding: 1rem;
     font-size: 1.25rem;
+    text-align: center;
   }
   #reset-score-btn{
     padding: 0.5rem;
@@ -42,6 +43,7 @@ body{
     font-size: 8vmin;
     color: #b0423e4b;
     background-color: #ffffc7;
+    text-align: center;
   }
   #reset-btn {
     padding: 1rem;
@@ -75,3 +77,29 @@ body{
   .hide {
     display: none;
   }
+  #board-size{
+    background-color: #ffffc7;
+    border: none;
+    text-align: center;
+  }
+  .label{
+    font-size: medium;
+}
+  #player-1-symbol{
+    background-color: #ffffc7;
+    border: none;
+    text-align: center;
+  }
+  #player-2-symbol{
+    background-color: #ffffc7;
+    border: none;
+    text-align: center;
+  }
+  .game-board {
+    display: grid;
+    gap: 5px;
+    /* background-color: #3e3a35; */
+    padding: 0.2rem;
+    border:none;
+  }
+  
