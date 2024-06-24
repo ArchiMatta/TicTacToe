@@ -27,6 +27,7 @@ const winpatterns=  [
     turno = true;
     count = 0;
     enableboxes();
+    
     msgContainer.classList.add("hide");
   };
 
